@@ -1,0 +1,35 @@
+ <template name="chatframe">
+         <div class="panel panel-info">
+           <div class="panel-heading">
+             GROUP CHAT
+           </div>
+           <div class="panel-body">
+             <ul class="media-list">
+               <!-- message template -->
+               {{#each tasks}}
+                <li class="media">
+                      <div class="media-body">
+                        <div class="media">
+                          <div class="media-body" >
+                            <strong>{{username}}</strong>: {{text}}
+                          </div>
+                        </div>
+                      </div>
+                </li>
+              {{/each}}
+             </ul>
+           </div>
+           <!-- message textbox -->
+            <form class="new-task">
+             <div class="panel-footer">
+               <div class="input-group">
+                 <input type="text" name="text" class="form-control" placeholder="Enter Message" />
+                 <span class="input-group-btn">
+                   <button class="btn btn-info send" type="submit">SEND</button>
+                 </span>
+               </div>
+             </div>
+           </form>
+        </div>
+ </template>
+ 		     
