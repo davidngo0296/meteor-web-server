@@ -12,4 +12,4 @@ In order to install and run the web server, simply follow these steps:
 
 -type $ meteor 
 
-After doing section A of the exercise, I've realized my lack of Meteor and Javascript knowledge. For that, I've decided to spent the rest of my week reading Meteor documentation and watching Meteor tutorial rather than doing section B.
+Sorry for not being able to complete the whole exercise. After doing section A of the exercise, I've realized my lack of Meteor and Javascript knowledge. For that, I've decided to spent the rest of my week reading Meteor documentation and watching Meteor tutorial rather than doing section B. I'll try to learn Vanilla JS as soon as I'm comfortable with Meteor and React.
